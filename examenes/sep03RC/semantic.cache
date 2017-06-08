@@ -1,0 +1,39 @@
+;; Object sep03RC/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sep03RC/"
+  :tables (list 
+   (semanticdb-table "Ej11.java"
+    :major-mode 'java-mode
+    :tags '(("java.io.*" include nil nil [1 18]) ("Ej11" type (:typemodifiers ("public") :members (("Ej11" function (:constructor-flag t :typemodifiers ("public")) (reparse-symbol class_member_declaration) [44 65]) ("main" function (:throws ("IOException") :typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [95 108])) :type "void") (reparse-symbol class_member_declaration) [71 648])) :type "class") nil [20 650]))
+    :file "Ej11.java"
+    :pointmax 651
+    )
+   (semanticdb-table "Driver.java"
+    :major-mode 'java-mode
+    :tags '(("java.io.Serializable" include nil nil [1 29]) ("Driver" type (:typemodifiers ("public") :members (("Driver" function (:constructor-flag t :typemodifiers ("public")) (reparse-symbol class_member_declaration) [57 80]) ("f" function (:typemodifiers ("public" "static") :arguments (("p" variable (:type "Ej12") (reparse-symbol formal_parameters) [111 117])) :type "void") (reparse-symbol class_member_declaration) [90 167]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [197 210])) :type "void") (reparse-symbol class_member_declaration) [173 371])) :type "class") nil [31 373]))
+    :file "Driver.java"
+    :pointmax 374
+    )
+   (semanticdb-table "Ej15.java"
+    :major-mode 'java-mode
+    :tags '(("Ej15" type (:typemodifiers ("public") :members (("a" variable (:typemodifiers ("static") :type "double") (reparse-symbol class_member_declaration) [25 44]) ("duplica" function (:typemodifiers ("static") :arguments (("a" variable (:type "double") (reparse-symbol formal_parameters) [134 142])) :type "int") (reparse-symbol class_member_declaration) [115 167]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [196 209])) :type "void") (reparse-symbol class_member_declaration) [172 253])) :type "class") nil [1 255]))
+    :file "Ej15.java"
+    :pointmax 256
+    )
+   (semanticdb-table "Ej13.java"
+    :major-mode 'java-mode
+    :tags 'nil
+    :file "Ej13.java"
+    :pointmax 1
+    )
+   (semanticdb-table "Ej17.java"
+    :major-mode 'java-mode
+    :tags 'nil
+    :file "Ej17.java"
+    :pointmax 1
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

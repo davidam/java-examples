@@ -1,0 +1,15 @@
+;; Object sep03RC/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "sep03RC/"
+  :tables (list 
+   (semanticdb-table "Ej12.java"
+    :major-mode 'java-mode
+    :tags '(("java.io.Serializable" include nil nil [1 29]) ("Ej12" type (:interfaces ("Serializable" "Cloneable") :members (("nombre" variable (:type "String") (reparse-symbol class_member_declaration) [83 97]) ("apellidos" variable (:type "String") (reparse-symbol class_member_declaration) [102 119]) ("edad" variable (:type "int") (reparse-symbol class_member_declaration) [124 133]) ("Ej12" function (:constructor-flag t :arguments (("x" variable (:type "String") (reparse-symbol formal_parameters) [144 152]) ("y" variable (:type "String") (reparse-symbol formal_parameters) [154 162]) ("z" variable (:type "int") (reparse-symbol formal_parameters) [164 169]))) (reparse-symbol class_member_declaration) [139 212]) ("clone" function (:typemodifiers ("public") :type "Object") (reparse-symbol class_member_declaration) [219 410])) :type "class") nil [31 417]))
+    :file "Ej12.java"
+    :pointmax 418
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

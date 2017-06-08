@@ -1,0 +1,16 @@
+public class ClaseA implements InterfA {
+
+    public void ClaseA() {
+	System.out.println("Hola ClaseA");
+    }
+
+    public void setPosicion(double x, double y) {
+	System.out.println("Escribo desde metodo setPosicion");
+}
+    public void dibujar(int dw) {};
+
+    public static void main(String arg[]) {
+	InterfA a;
+	a = new ClaseA;
+    }
+}

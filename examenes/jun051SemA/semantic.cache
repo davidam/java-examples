@@ -1,0 +1,15 @@
+;; Object examen05/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "examen05/"
+  :tables (list 
+   (semanticdb-table "ej16.java"
+    :major-mode 'jde-mode
+    :tags '(("Class1" type (:typemodifiers ("public") :members (("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [51 64])) :type "void") (reparse-symbol class_member_declaration) [27 359])) :type "class") nil [1 361]))
+    :file "ej16.java"
+    :pointmax 362
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

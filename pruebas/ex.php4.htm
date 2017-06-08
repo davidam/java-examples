@@ -1,0 +1,112 @@
+<html><head><title>Example of destructor - Java example</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="training course responsibility php suitability programming consultants individual forbidden copyright attendees suitable customer remember running example welcome covered remains things ensure select module banner notes these using print">
+<meta name="description" content=" Example of destructor - Java example">
+<meta name="reply-to" content="graham@wellho.net">
+<meta name="author" content="Graham Ellis">
+<meta name="version" content="5.1.0">
+<meta name="copyright" content="Well House Consultants Ltd, 2005">
+<style type="text/css">
+A:link {
+	color:336600;
+	text-decoration:none;
+}
+A:visited {
+	color:#6600CC;
+	text-decoration:none;
+}
+A:hover {
+	color:CC0000;
+	text-decoration:none;
+}
+A:active {
+	color:336600;
+	text-decoration:none;
+}
+</style>
+<link href="/WHC.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function leap(where) {where.submit()}
+//-->
+</script><base href="http://www.wellho.co.uk/resources/ex.php4?item=j714/Thing.java"></head>
+<body alink="#ff0000" bgcolor="#ffffff" link="#000000" text="#000000" vlink="#666666">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="680">  <tbody><tr align="left" valign="bottom">
+    <td colspan="2" nowrap="nowrap"><a href="/"><img src="/wellimg/WHhead2.gif" alt="Well House Consultants Ltd" longdesc="http://www.wellho.net" border="0" height="100" width="680"></a></td>
+  </tr>
+  <tr align="left" valign="top">
+    <td nowrap="nowrap" width="144"><a href="/net/images.php4?img=jp"><img src="/wellimg/jp.jpg" alt="" border="0" height="300" width="144"></a><br>
+	<form action="http://www.wellho.net/net/search.php4">
+    <p class="body"><a href="/net/aboutsearch.html">Site Search</a> for:<br>
+    <input name="search" size="14"> <input value="Go!" type="submit">
+    </p>
+	</form>
+	<span class="linkslist">Further Information:</span><br>
+	<span class="sidelinks">
+	<a href="/index.html">Home</a><br>
+	<a href="/net/new.html">What's New</a><br>
+	<a href="/resources/index.html">Resource Centre</a><br>
+	<a href="/library/index.html">WHC Library</a><br>
+	<a href="/net/rank.html" target="rank">Rank/Review</a><br>
+	<a href="http://www.wellho.net/cgi-bin/opentalk/YaBB.pl">Opentalk Forum</a><br>
+	<a href="/net/about.html">About Us</a>
+
+	</span>
+<hr>
+<a href="/resources/ex.php4?setfontgroup=1"><span class="body1">AA</span></a> 
+<a href="/resources/ex.php4?setfontgroup=2"><span class="body2">AA</span></a> 
+<a href="/resources/ex.php4?setfontgroup=3"><span class="body3">AA</span></a> 
+<a href="/resources/ex.php4?setfontgroup=4"><span class="body4">AA</span></a> 
+<br>
+<span class="sidelinks"><a href="/resources/access.html">Accessibility</a></span>
+	</td>
+    <td class="body" width="536"><div align="left"><img src="/wellimg/space.gif" alt="" height="12" width="1"></div>
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td colspan="1" class="body"><span class="subhead">Example Thing.java, module j714 (Java)<br>
+<b> Example of destructor</b><br><br></span>
+<span class="body">
+This is an example program from a <a href="http://www.wellho.net">Well House Consultants</a>
+<a href="http://www.wellho.net/course/index.html">training course</a>. Select
+<a href="/resources/J714.html">here</a> to jump
+to the module of the course on which this example is covered.<br>
+<pre><br>public class Thing {<br><br>public static int number_of_things = 0;<br>public String what;<br><br>public Thing (String what) {<br>	this.what = what;<br>	number_of_things++;<br>	}<br><br>protected void finalize ()  {<br>	number_of_things--;<br>	}<br><br>}</pre><br>
+Past attendees on our training courses are welcome to use individual 
+examples in the course of their programming, but must check 
+the examples they use to ensure that they are suitable for their 
+job. Remember that some of our examples show you how <i>not</i> to do
+things - check in your notes. Well House Consultants take no responsibility 
+for the suitability of these example programs to customer's needs.
+<br><br>
+This program Remains copyright Well House Consultants Ltd. You are 
+forbidden from using it for running your own training courses. 
+</span>
+<br>
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"><hr noshade="noshade" size="1" width="100%">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td><span class="disclaimer">WELL HOUSE CONSULTANTS LTD<br>
+      404, The Spa &#8226; Melksham, Wiltshire SN12 6QL &#8226; United Kingdom<br>
+      PHONE: <a href="/resources/locall.html">0845 8382 404</a> or 01225 708225 &#8226; 
+       FACSIMILE <a href="/resources/locall.html">0845 8382 405</a> or 01225 707126<br>EMAIL: <a href="mailto:info@wellho.net">info@wellho.net</a>
+	  <hr noshade="noshade" size="1" width="100%">
+	  You are currently on our United Kingdom site. <a href="http://www.wellho.net">Visit our worldwide site</a>	  <br>Updated Friday, 18th March 2005      <a href="/resources/privacy.html">Privacy and Copyright Statement</a> ©
+2005 
+	  </span></td>
+    <td><div align="right"> </div></td></tr>
+</tbody></table>
+</td>
+    </tr>
+</tbody></table>
+
+  </td></tr>
+</tbody></table>
+</body></html>

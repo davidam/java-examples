@@ -1,0 +1,15 @@
+;; Object figuras/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "figuras/"
+  :tables (list 
+   (semanticdb-table "Figuras.java"
+    :major-mode 'java-mode
+    :tags '(("java.util.ArrayList" include nil nil [1 28]) ("java.awt.*" include nil nil [29 47]) ("Figuras" type (:members (("main" function (:throws ("InterruptedException") :typemodifiers ("public" "static") :arguments (("arg[]" variable (:type "String") (reparse-symbol formal_parameters) [93 105])) :type "void") (reparse-symbol class_member_declaration) [69 1040])) :type "class") nil [49 1042]))
+    :file "Figuras.java"
+    :pointmax 1045
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

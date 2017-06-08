@@ -1,0 +1,9 @@
+
+* Hacer que cuando abra un fichero java me salte el java-mode. DONE!!
+
+--
+* Terminar menu.
+* Hacer que Proyectos.java devuelva una lista de Proyectos
+* Decidir si al hacer un alta/baja se devuelve Boolean, o se queda como está -> malahierba
+* Implementar Gestion
+* Conseguir suficiente experiencia con swing para hacer al menos Proveedor.

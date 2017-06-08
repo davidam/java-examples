@@ -1,0 +1,34 @@
+;; Object p1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "p1/"
+  :tables (list 
+   (semanticdb-table "Ejemplo1.java"
+    :major-mode 'java-mode
+    :tags '(("p1" package nil nil [1 12]) ("Ejemplo1" type (:typemodifiers ("public") :members (("n" variable (:type "int") (reparse-symbol class_member_declaration) [41 49]) ("n_pri" variable (:typemodifiers ("private") :type "int") (reparse-symbol class_member_declaration) [54 74]) ("n_pro" variable (:typemodifiers ("protected") :type "int") (reparse-symbol class_member_declaration) [79 101]) ("n_pub" variable (:typemodifiers ("public") :type "int") (reparse-symbol class_member_declaration) [106 125]) ("Ejemplo1" function (:constructor-flag t :typemodifiers ("public")) (reparse-symbol class_member_declaration) [135 160])) :type "class") nil [13 162]))
+    :file "Ejemplo1.java"
+    :pointmax 163
+    )
+   (semanticdb-table "Ejemplo1a.java"
+    :major-mode 'java-mode
+    :tags '(("p1" package nil nil [1 12]) ("Ejemplo1a" type (:typemodifiers ("public") :superclasses "Ejemplo1" :members (("Ejemplo1a" function (:constructor-flag t) (reparse-symbol class_member_declaration) [60 233]) ("main" function (:typemodifiers ("public" "static") :arguments (("args[]" variable (:type "String") (reparse-symbol formal_parameters) [262 275])) :type "void") (reparse-symbol class_member_declaration) [238 319])) :type "class") nil [14 321]))
+    :file "Ejemplo1a.java"
+    :pointmax 322
+    )
+   (semanticdb-table "Ejemplo2.java"
+    :major-mode 'jde-mode
+    :tags '(("p1" package nil nil [1 12]) ("java.io.*" include nil nil [13 30]) ("Ejemplo2" type (:members (("main" function (:typemodifiers ("public" "static") :arguments (("args[]" variable (:type "String") (reparse-symbol formal_parameters) [77 90])) :type "void") (reparse-symbol class_member_declaration) [52 450])) :type "class") nil [31 452]))
+    :file "Ejemplo2.java"
+    :pointmax 453
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Ejemplo3.java"
+    :major-mode 'jde-mode
+    :tags '(("javax.swing.*" include nil nil [1 22]) ("java.awt.*" include nil nil [23 41]) ("Ventana3" type (:typemodifiers ("public") :superclasses "JFrame" :members (("Ventana3" function (:constructor-flag t :typemodifiers ("public") :arguments (("texto" variable (:type "String") (reparse-symbol formal_parameters) [101 113]))) (reparse-symbol class_member_declaration) [85 358]) ("main" function (:typemodifiers ("public" "static") :arguments (("args[]" variable (:type "String") (reparse-symbol formal_parameters) [387 400])) :type "void") (reparse-symbol class_member_declaration) [363 447])) :type "class") nil [42 449]))
+    :file "Ejemplo3.java"
+    :pointmax 450
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="c13"/>
+    <classpathentry kind="src" path="c08"/>
+    <classpathentry kind="src" path="c10"/>
+    <classpathentry kind="src" path="c05"/>
+    <classpathentry
+        excluding="c13/|c08/|c10/|c05/|c02/|c12/xfiles/|appendixa/|c15/|c12/|c07/|c04/|c14/|c09/|c11/|c06/|c03/"
+        kind="src" path=""/>
+    <classpathentry kind="src" path="c02"/>
+    <classpathentry kind="src" path="c12/xfiles"/>
+    <classpathentry kind="src" path="appendixa"/>
+    <classpathentry kind="src" path="c15"/>
+    <classpathentry excluding="xfiles/" kind="src" path="c12"/>
+    <classpathentry kind="src" path="c07"/>
+    <classpathentry kind="src" path="c04"/>
+    <classpathentry kind="src" path="c14"/>
+    <classpathentry kind="src" path="c09"/>
+    <classpathentry kind="src" path="c11"/>
+    <classpathentry kind="src" path="c06"/>
+    <classpathentry kind="src" path="c03"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="output" path=""/>
+</classpath>

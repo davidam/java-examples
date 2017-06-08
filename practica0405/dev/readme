@@ -1,0 +1,7 @@
+# Si tenemos las clases necesarias en .bash_profile
+
+# Para compilar
+ javac ProveedorPrueba.java
+
+# Para ejecutar
+ java practica0405.ProveedorPrueba

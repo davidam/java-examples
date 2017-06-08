@@ -1,0 +1,15 @@
+;; Object figuras/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "figuras/"
+  :tables (list 
+   (semanticdb-table "Dibujable.java"
+    :major-mode 'java-mode
+    :tags '(("java.awt.Graphics" include nil nil [1 26]) ("Dibujable" type (:typemodifiers ("public") :members (("setPosicion" function (:typemodifiers ("public") :arguments (("x" variable (:type "double") (reparse-symbol formal_parameters) [86 94]) ("y" variable (:type "double") (reparse-symbol formal_parameters) [96 104])) :type "void") (reparse-symbol interface_member_declaration) [62 106]) ("dibujar" function (:typemodifiers ("public") :arguments (("dw" variable (:type "Graphics") (reparse-symbol formal_parameters) [131 142])) :type "void") (reparse-symbol interface_member_declaration) [111 144])) :type "interface") nil [28 146]))
+    :file "Dibujable.java"
+    :pointmax 147
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

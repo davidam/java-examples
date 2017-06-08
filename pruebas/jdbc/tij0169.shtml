@@ -1,0 +1,930 @@
+<html><head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="Author" content="Zafir Anjum"><title>Java Programmer's SourceBook : Thinking in Java</title>
+
+   
+
+<meta name="Author" content="developer.com"><meta name="Keywords" content="visual c++ java vb source code software downloads freeware shareware visual basic c++ web development general internet internet security news articles directory reference sample example guide tutorial help resource developer discussion earthweb developer.com"><meta name="description" distribution="" content="Developer.com offers dedicated downloads for the IT professional developer. Features include visual c++, java, visual basic, vb, source code and more.&gt;
+&lt;META NAME="><meta name="resource-type" content="document"><meta name="language" content="en"><base href="http://www.codeguru.com/java/tij/tij0169.shtml"></head>
+
+
+
+
+
+
+
+
+
+
+
+<body alt="wave" alink="#ff0000" background="/images/curve_codeguru.gif" bgcolor="#ffffff" link="#dd0000" text="#000000" vlink="#999999">
+
+<!-- begin logo and top banner ad table -->
+
+<table cellpadding="0" cellspacing="0" width="640">
+<tbody><tr colspan="3">
+<td colspan="3" valign="top" width="640">
+
+<a href="http://www.earthweb.com" target="_top">
+<img src="/images/eweb_banner.gif" alt="EarthWeb" border="0" height="25" width="640"></a>
+
+</td></tr><tr>
+<td align="left" valign="top" width="150">
+<a href="/">
+<img src="/images/logo_cobrand.gif" alt="Developer.com" border="0" height="100" width="110"></a></td>
+<td><img src="/images/dotclear.gif" height="1" width="40"></td>
+<td>
+
+
+<iframe src="http://view.atdmt.com/EOS/iview/rthwbver0010000029eos/direct/01/&amp;1979406887?click=" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" frameborder="0" height="100" scrolling="no" width="750">
+&lt;script&gt;
+document.write('&lt;a
+href="http://clk.atdmt.com/EOS/go/rthwbver0010000029eos/direct/01/1979406887"
+target="_blank"&gt;
+&lt;img
+src="http://view.atdmt.com/EOS/view/rthwbver0010000029eos/direct/01/1979406887"/&gt;&lt;/a&gt;');
+&lt;/script&gt;&lt;noscript&gt;&lt;a
+href="http://clk.atdmt.com/EOS/go/rthwbver0010000029eos/direct/01/1979406887"
+target="_blank"&gt;
+&lt;img border="0"
+src="http://view.atdmt.com/EOS/view/rthwbver0010000029eos/direct/01/1979406887"
+/&gt;&lt;/a&gt;&lt;/noscript&gt;</iframe>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/1979406887/468x60-1/OasDefault/Verio_Q105SME_1dd/Earthweb750x100.html/33656363636439343432306361343830?_RM_EMPTY_" height="1" width="1">
+<!-- Counter Position Eliminated -->
+
+
+</td>
+</tr>
+</tbody></table>
+
+<!-- end logo and top banner ad table -->
+
+<!-- begin lower outer table -->
+
+<table cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top" width="130">
+
+<!--navbar info -->
+
+<table border="0" cellpadding="0" cellspacing="0" width="130">
+
+	<tbody><tr>
+
+		<td>
+	<!-- SEARCH FORM-->
+    <form method="post" action="http://search.internet.com/codeguru.earthweb.com">
+    <input name="IC_StartNumber" value="0" type="hidden">
+    <input name="IC_BatchSize" value="10" type="hidden">
+    <input name="IC_RelevanceThreshold" value="30" type="hidden">
+    <input name="IC_QueryDatabase" value="codeguru.earthweb.com" type="hidden">
+    <input name="IC_QueryText" value="" size="10" type="text">
+    <input value="Search" type="submit">
+    </form>
+<!-- END OF SEARCH FORM -->
+
+
+<!--		<IMG src="http://codeguru.developer.com/images/rule.gif" width="105" vspace=3 height="2" ALT="-----">-->
+<!-- Removed a </form> tag from here. - Brad!-->
+   </td>
+
+	</tr>
+
+</tbody></table>
+
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="150">
+                                 
+
+                        <tbody><tr><td><font face="verdana, helvetica" size="2">
+                        <b>Site</b>
+                        </font></td></tr>
+
+                        <tr><td>
+                        <small>
+				<a target="_top" href="/w2k_central/index.shtml"><font color="#000000" face="verdana, helvetica">windows 2000</font></a><br>
+				<a target="_top" href="/"><font color="#000000" face="verdana, helvetica">visual c++</font></a><br>
+                <a target="_top" href="/java"><font color="#dd0000" face="verdana, helvetica">java</font></a><br>
+                <a target="_top" href="/vb"><font color="#000000" face="verdana, helvetica">visual basic</font></a><br>
+                <a target="_top" href="http://www.developer.com/downloads/code/javascripts.html"><font color="#000000" face="verdana, helvetica">javascripts</font></a><br>
+   			    <a target="_top" href="/cgi-bin/recommend.cgi"><font color="#000000" face="verdana, helvetica">recommend it</font></a><font color="#000000" face="verdana, helvetica"><br>
+                        </font></small></td></tr>
+                        <tr><td> </td></tr>
+                
+                        <tr><td><font face="verdana, helvetica" size="2">
+                        <strong>Book</strong>
+                        </font></td></tr>
+
+                        <tr><td>
+                        <small>
+                        <a target="_top" href="/java/tij/"><font color="#000000" face="verdana, helvetica">thinking in java</font></a><font color="#000000" face="verdana, helvetica"><br>
+                        </font></small>
+                        </td></tr>
+                        <tr><td> </td></tr>
+                       
+
+                        <tr><td><font face="verdana, helvetica" size="2">
+                        <strong>Interact</strong>
+                        </font></td></tr>
+
+                        <tr><td>
+                        <small>
+                <a target="_top" href="/cgi-bin/bbs/wt/wwwthreads.pl"><font color="#000000" face="verdana, helvetica">forum</font></a><br>
+                <a target="_top" href="/Guestbook/guestbook.shtml"><font color="#000000" face="verdana, helvetica">guest book</font></a><br>
+                <a target="_top" href="http://www.dice.com/"><font color="#000000" face="verdana, helvetica">jobs</font></a><br>
+                <a href="/jokes/jokes.shtml"><font color="#000000" face="verdana, helvetica">jokes</font></a><br>
+<!--            <a  href="/java/openfaq/open_faq.shtml"><strong>open faq</strong></a><br> -->
+                <a href="/java/new"><font color="#000000" face="verdana, helvetica">what's new</font></a><br>
+                
+                <br>
+                <a href="/java/sharecode.shtml"><font color="#000000" face="verdana, helvetica">share code</font></a><br>
+
+                        </small>
+                        </td></tr>
+                        <tr><td> </td></tr>
+                        
+                        <tr><td><font face="verdana, helvetica" size="2">
+                        <strong>Resource</strong>
+                        </font></td></tr>
+
+                        <tr><td>
+                        <small>
+                        <a href="/java/links/add.cgi"><font color="#000000" face="verdana, helvetica">add resource</font></a><br>
+                <a href="/java/links/modify.cgi"><font color="#000000" face="verdana, helvetica">modify resource</font></a><br>
+                <!--<a  href="http://www.developer.com/search/"><font face="verdana, helvetica" color="#000000">search resource</a></font><br>-->
+                <a href="/java/new"><font color="#000000" face="verdana, helvetica">new resource</font></a><br>
+                <!--<a  href="/cgi-bin/mailinglist/mlist.cgi?action=join&list=java"><font face="verdana, helvetica" color="#000000">mailing list</a><br>
+                        </font>--></small>
+                        </td></tr>
+                        <tr><td> </td></tr>
+                        
+                </tbody></table>
+<p>
+<!-- JOB BUTTON --> 
+    <table border="0" cellpadding="5" cellspacing="0" width="150">
+    <tbody><tr><td align="left">
+       <a href="http://jobs.internet.com" target="new">
+         <img src="http://www.codeguru.com/jobs.gif" alt="[Internet Jobs]">
+       </a>
+    </td></tr>
+    </tbody></table>
+
+<table>
+	<tbody><tr>
+		<td><form action="/java/cgi-bin/list_java.cgi" method="post"><img src="/images/rule.gif" alt="-----" height="2" vspace="4" width="105"><br>
+		<b><font face="verdana, helvetica" size="1">
+		Java by E-mail:</font></b><font face="verdana, helvetica" size="1"><br></font>
+		<input name="email" value="your e-mail" size="11">
+		<input name="state" value="Subscribe" type="hidden"></form></td>
+	</tr>
+	<tr>
+		<td><input value="Subscribe" type="submit"><br>
+		<font face="verdana, helvetica" size="1">
+		Get the weekly e-mail highlights on Java!<br></font>
+		<img src="/images/rule.gif" alt="-----" height="2" vspace="4" width="105"></td>
+	</tr>
+</tbody></table>
+
+
+
+<!--/navbar>
+
+
+<!-- blank column for spacing -->
+
+</p></td><td valign="top" width="20"><font color="#ffffff">-</font></td>
+
+<!-- end blank column for spacing -->
+
+<!-- begin content column -->
+
+<td valign="top"> 
+<table cellpadding="0" cellspacing="0">
+<tbody><tr>
+
+<!-- begin main content column -->
+
+
+<td valign="top" width="468">
+
+
+
+
+
+<table width="100%"><tbody><tr>
+<td>
+<a href="http://www.bruceeckel.com/javabook.html">Bruce Eckel's Thinking in Java</a>
+</td>
+<td align="right">
+<a href="tij_c.shtml">Contents</a> | <a href="tij0168.shtml">Prev</a> | <a href="tij0170.shtml">Next</a>
+</td>
+</tr></tbody></table>
+<hr>
+
+<h2 align="left">
+Connecting
+to databases 
+<p>with
+JDBC
+</p></h2>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">It
+has been estimated that half of all software development involves client/server
+operations. A great promise of Java has been the ability to build
+platform-independent client/server database applications. In Java 1.1<a name="Index2828"></a>
+this has come to fruition with <a name="Index2829"></a><a name="Index2830"></a><a name="Index2831"></a>Java
+DataBase Connectivity (JDBC).
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">One
+of the major problems with databases has been the feature wars between the
+database companies. There is a &#8220;standard&#8221; database language, <a name="Index2832"></a><a name="Index2833"></a>Structured
+Query Language (SQL-92), but usually you must know which database vendor
+you&#8217;re working with despite the standard. JDBC is designed to be
+platform-independent, so you don&#8217;t need to worry about the database
+you&#8217;re using while you&#8217;re programming. However, it&#8217;s still
+possible to make vendor-specific calls from JDBC so you aren&#8217;t restricted
+from doing what you must.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">JDBC,
+like many of the APIs in Java, is designed for simplicity. The method calls you
+make correspond to the logical operations you&#8217;d think of doing when
+gathering data from a database: connect to the database, create a statement and
+execute the query, and look at the result set.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">To
+allow this platform independence, JDBC provides a 
+</font><font color="Black" face="Carmina Md BT" size="3"><i>driver
+manager
+</i></font><font color="Black" face="Carmina Md BT" size="3">
+that dynamically maintains all the driver objects that your database queries
+will need. So if you have three different kinds of vendor databases to connect
+to, you&#8217;ll need three different driver objects. The driver objects
+register themselves with the driver manager at the time of loading, and you can
+force the loading using 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>Class.forName( )</b></font><font color="Black" face="Carmina Md BT" size="3">.</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">To
+open a database, you must create a &#8220;<a name="Index2834"></a><a name="Index2835"></a>database
+URL&#8221; that specifies:
+</font><p></p></div>
+<ol>
+<li><font color="Black" face="Carmina Md BT" size="3">	That
+you&#8217;re using JDBC with &#8220;jdbc&#8221;
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	The
+&#8220;subprotocol&#8221;: the name of the driver or the name of a database
+connectivity mechanism. Since the design of JDBC was inspired by <a name="Index2836"></a>ODBC,
+the first subprotocol available is the &#8220;jdbc-odbc bridge,&#8221;
+specified by &#8220;odbc&#8221;
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	The
+database identifier. This varies with the database driver used, but it
+generally provides a logical name that is mapped by the database administration
+software to a physical directory where the database tables are located. For
+your database identifier to have any meaning, you must register the name using
+your database administration software. (The process of registration varies from
+platform to platform.)
+</font></li></ol><div align="left"><font color="Black" face="Carmina Md BT" size="3">All
+this information is combined into one string, the &#8220;database URL.&#8221;
+For example, to connect through the ODBC subprotocol to a database identified
+as &#8220;people,&#8221; the database URL could be:
+</font><p></p></div><div align="left"><tt><font color="Black" face="Courier New" size="3">String
+dbUrl = "jdbc:odbc:people";
+</font></tt><p></p></div><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">If
+you&#8217;re connecting across a network, the database URL will also contain
+the information identifying the remote machine.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">When
+you&#8217;re ready to connect to the database, you call the 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>static</b></font><font color="Black" face="Carmina Md BT" size="3">
+method 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>DriverManager.getConnection( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+passing it the database URL, the user name, and a password to get into the
+database. You get back a 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>Connection</b></font><font color="Black" face="Carmina Md BT" size="3">
+object that you can then use to query and manipulate the database.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+following example opens a database of contact information and looks for a
+person&#8217;s last name as given on the command line. It selects only the
+names of people that have email addresses, then prints out all the ones that
+match the given last name:
+</font><p></p></div>
+
+<font color="#990000"></font><pre><font color="#990000"><font color="#009900">//: Lookup.java</font>
+<font color="#009900">// Looks up email addresses in a </font>
+<font color="#009900">// local database using JDBC</font>
+<font color="#0000ff">import</font> java.sql.*;
+
+<font color="#0000ff">public</font> <font color="#0000ff">class</font> Lookup {
+  <font color="#0000ff">public</font> <font color="#0000ff">static</font> <font color="#0000ff">void</font> main(String[] args) {
+    String dbUrl = "jdbc:odbc:people";
+    String user = "";
+    String password = "";
+    <font color="#0000ff">try</font> {
+      <font color="#009900">// Load the driver (registers itself)</font>
+      Class.forName(
+        "sun.jdbc.odbc.JdbcOdbcDriver");
+      Connection c = DriverManager.getConnection(
+        dbUrl, user, password);
+      Statement s = c.createStatement();
+      <font color="#009900">// SQL code:</font>
+      ResultSet r = 
+        s.executeQuery(
+          "SELECT FIRST, LAST, EMAIL " +
+          "FROM people.csv people " +
+          "WHERE " +
+          "(LAST='" + args[0] + "') " +
+          " AND (EMAIL Is Not Null) " +
+          "ORDER BY FIRST");
+      <font color="#0000ff">while</font>(r.next()) {
+        <font color="#009900">// Capitalization doesn't matter:</font>
+        System.out.println(
+          r.getString("Last") + ", " 
+          + r.getString("fIRST")
+          + ": " + r.getString("EMAIL") );
+      }
+      s.close(); <font color="#009900">// Also closes ResultSet</font>
+    } <font color="#0000ff">catch</font>(Exception e) {
+      e.printStackTrace();
+    }
+  }
+} <font color="#009900">///:~ </font></font></pre><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">You
+can see the creation of the database URL as previously described. In this
+example, there is no password protection on the database so the user name and
+password are empty strings.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">Once
+the connection is made with 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>DriverManager.getConnection( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+you can use the resulting 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>Connection</b></font><font color="Black" face="Carmina Md BT" size="3">
+object to
+</font><font color="Black" face="Carmina Md BT" size="3"><b>
+</b></font><font color="Black" face="Carmina Md BT" size="3">create
+a 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>Statement</b></font><font color="Black" face="Carmina Md BT" size="3">
+object using the <a name="Index2837"></a><a name="Index2838"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>createStatement( )</b></font><font color="Black" face="Carmina Md BT" size="3">
+method. With the resulting <a name="Index2839"></a><a name="Index2840"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>Statement</b></font><font color="Black" face="Carmina Md BT" size="3">,
+you can call <a name="Index2841"></a><a name="Index2842"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>executeQuery( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+passing in a string containing an SQL-92 standard SQL statement. (You&#8217;ll
+see shortly how you can generate this statement automatically, so you
+don&#8217;t have to know much about SQL.) 
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+</font><font color="Black" face="Carmina Md BT" size="3"><b>executeQuery( )
+</b></font><font color="Black" face="Carmina Md BT" size="3">method
+returns a <a name="Index2843"></a><a name="Index2844"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>ResultSet</b></font><font color="Black" face="Carmina Md BT" size="3">
+object, which is quite a bit like an iterator: the 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>next( )</b></font><font color="Black" face="Carmina Md BT" size="3">
+method moves the iterator to the next record in the statement, or returns 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>null</b></font><font color="Black" face="Carmina Md BT" size="3">
+if the end of the result set has been reached. You&#8217;ll always get a 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>ResultSet</b></font><font color="Black" face="Carmina Md BT" size="3">
+object back from 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>executeQuery( )</b></font><font color="Black" face="Carmina Md BT" size="3">
+even if a query results in an empty set (that is, an exception is not thrown).
+Note that you must call 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>next( )</b></font><font color="Black" face="Carmina Md BT" size="3">
+once before trying to read any record data. If the result set is empty, this
+first call to 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>next( )</b></font><font color="Black" face="Carmina Md BT" size="3">
+will return 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>false</b></font><font color="Black" face="Carmina Md BT" size="3">.
+For each record in the result set, you can select the fields using (among other
+approaches) the field name as a string. Also note that the capitalization of
+the field name is ignored &#8211; it doesn&#8217;t matter with an SQL database.
+You determine the type you&#8217;ll get back by calling <a name="Index2845"></a><a name="Index2846"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>getInt( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+<a name="Index2847"></a><a name="Index2848"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>getString( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+<a name="Index2849"></a><a name="Index2850"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>getFloat( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+etc. At this point, you&#8217;ve got your database data in Java native format
+and can do whatever you want with it using ordinary Java code.
+</font><a name="_Toc408018782"></a><p></p></div>
+<a name="Heading534"></a><h3 align="left">
+Getting
+the example to work
+</h3>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">With
+JDBC, understanding the code is relatively simple. The confusing part is making
+it work on your particular system. The reason this is confusing is that it
+requires you to figure out how to get your JDBC driver to load properly, and
+how to set up a database using your database administration software.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">Of
+course, this process can vary radically from machine to machine, but the
+process I used to make it work under 32-bit Windows might give you clues to
+help you attack your own situation.
+</font><p></p></div>
+<a name="Heading535"></a><h4 align="left">
+Step
+1: Find the JDBC Driver
+</h4>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+program above contains the statement:
+</font><p></p></div><div align="left"><tt><font color="Black" face="Courier New" size="3">Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");</font></tt><p></p></div><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">This
+implies a directory structure, which is deceiving. With this particular
+installation of JDK 1.1, there was no file called 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>JdbcOdbcDriver.class</b></font><font color="Black" face="Carmina Md BT" size="3">,
+so if you looked at this example and went searching for it you&#8217;d be
+frustrated. Other published examples use a pseudo name, such as
+&#8220;myDriver.ClassName,&#8221; which is less than helpful. In fact, the load
+statement above for the jdbc-odbc driver (the only one that actually comes with
+JDK 1.1) appears in only a few places in the online documentation (in
+particular, a page labeled &#8220;JDBC-ODBC Bridge Driver&#8221;). If the load
+statement above doesn&#8217;t work, then the name might have been changed as
+part of a Java version change, so you should hunt through the documentation
+again.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">If
+the load statement is wrong, you&#8217;ll get an exception at this point. To
+test whether your driver load statement is working correctly, comment out the
+code after the statement and up to the 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>catch</b></font><font color="Black" face="Carmina Md BT" size="3">
+clause; if the program throws no exceptions it means that the driver is loading
+properly.
+</font><p></p></div>
+<a name="Heading536"></a><h4 align="left">
+Step
+2: Configure the database
+</h4>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">Again,
+this is specific to 32-bit Windows; you might need to do some research to
+figure it out for your own platform.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">First,
+open the control panel. You might find two icons that say &#8220;ODBC.&#8221;
+You must use the one that says &#8220;32bit ODBC,&#8221; since the other one is
+for backwards compatibility with 16-bit ODBC software and will produce no
+results for JDBC. When you open the &#8220;32bit ODBC&#8221; icon, you&#8217;ll
+see a tabbed dialog with a number of tabs, including &#8220;User DSN,&#8221;
+&#8220;System DSN,&#8221; &#8220;File DSN,&#8221; etc., in which
+&#8220;DSN&#8221; means &#8220;Data Source Name.&#8221; It turns out that for
+the JDBC-ODBC bridge, the only place where it&#8217;s important to set up your
+database is &#8220;System DSN,&#8221; but you&#8217;ll also want to test your
+configuration and create queries, and for that you&#8217;ll also need to set up
+your database in &#8220;File DSN.&#8221; This will allow the Microsoft Query
+tool (that comes with Microsoft Office) to find the database. Note that other
+query tools are also available from other vendors.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+most interesting database is one that you&#8217;re already using. Standard ODBC
+supports a number of different file formats including such venerable workhorses
+as DBase. However, it also includes the simple &#8220;comma-separated
+ASCII&#8221; format, which virtually every data tool has the ability to write.
+In my case, I just took my &#8220;people&#8221; database that I&#8217;ve been
+maintaining for years using various contact-management tools and exported it as
+a comma-separated ASCII file (these typically have an extension of 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>.csv</b></font><font color="Black" face="Carmina Md BT" size="3">).
+In the &#8220;File DSN&#8221; section I chose &#8220;Add,&#8221; chose the text
+driver to handle my comma-separated ASCII file, and then un-checked &#8220;use
+current directory&#8221; to allow me to specify the directory where I exported
+the data file.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">You&#8217;ll
+notice when you do this that you don&#8217;t actually specify a file, only a
+directory. That&#8217;s because a database is typically represented as a
+collection of files under a single directory (although it could be represented
+in other forms as well). Each file usually contains a single table, and the SQL
+statements can produce results that are culled from multiple tables in the
+database (this is called a <a name="Index2851"></a><a name="Index2852"></a></font><font color="Black" face="Carmina Md BT" size="3"><i>join</i></font><font color="Black" face="Carmina Md BT" size="3">).
+A database that contains only a single table (like this one) is usually called a <a name="Index2853"></a><a name="Index2854"></a><a name="Index2855"></a></font><font color="Black" face="Carmina Md BT" size="3"><i>flat-file
+database
+</i></font><font color="Black" face="Carmina Md BT" size="3">.
+Most problems that go beyond the simple storage and retrieval of data generally
+require multiple tables that must be related by joins to produce the desired
+results, and these are called <a name="Index2856"></a><a name="Index2857"></a><a name="Index2858"></a></font><font color="Black" face="Carmina Md BT" size="3"><i>relational</i></font><font color="Black" face="Carmina Md BT" size="3">
+databases.
+</font><p></p></div>
+<a name="Heading537"></a><h4 align="left">
+Step
+3: Test the configuration
+</h4>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">To
+test the configuration you&#8217;ll need a way to discover whether the database
+is visible from a program that queries it. Of course, you can simply run the
+JDBC program example above up to and including the statement:
+</font><p></p></div><div align="left"><tt><font color="Black" face="Courier New" size="3">Connection
+c = DriverManager.getConnection(
+</font></tt><p><tt><font color="Black" face="Courier New" size="3">
+ dbUrl, user, password);
+</font></tt></p><p></p></div><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">If
+an exception is thrown, your configuration was incorrect.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">However,
+it&#8217;s useful to get a query-generation tool involved at this point. I used
+Microsoft Query that came with Microsoft Office, but you might prefer something
+else. The query tool must know where the database is, and Microsoft Query
+required that I go to the ODBC Administrator&#8217;s &#8220;File DSN&#8221; tab
+and add a new entry there, again specifying the text driver and the directory
+where my database lives. You can name the entry anything you want, but
+it&#8217;s helpful to use the same name you used in &#8220;System DSN.&#8221;
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">Once
+you&#8217;ve done this, you will see that your database is available when you
+create a new query using your query tool.
+</font><p></p></div>
+<a name="Heading538"></a><h4 align="left">
+Step
+4: Generate your SQL query
+</h4>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+query that I created using Microsoft Query not only showed me that my database
+was there and in good order, but it also automatically created the SQL code
+that I needed to insert into my Java program. I wanted a query that would
+search for records that had the last name that was typed on the command line
+when starting the Java program. So as a starting point, I searched for a
+specific last name, &#8216;Eckel&#8217;. I also wanted to display only those
+names that had email addresses associated with them. The steps I took to create
+this query were:
+</font><p></p></div>
+<ol>
+<li><font color="Black" face="Carmina Md BT" size="3">	Start
+a new query and use the Query Wizard. Select the &#8220;people&#8221; database.
+(This is the equivalent of opening the database connection using the
+appropriate database URL.)
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	Select
+the &#8220;people&#8221; table within the database. From within the table,
+choose the columns FIRST, LAST, and EMAIL.
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	Under
+&#8220;Filter Data,&#8221; choose LAST and select &#8220;equals&#8221; with an
+argument of Eckel. Click the &#8220;And&#8221; radio button.
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	Choose
+EMAIL and select &#8220;Is not Null.&#8221;
+</font></li><li><font color="Black" face="Carmina Md BT" size="3">	Under
+&#8220;Sort By,&#8221; choose FIRST.
+</font></li></ol><div align="left"><font color="Black" face="Carmina Md BT" size="3">The
+result of this query will show you whether you&#8217;re getting what you want.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">Now
+you can press the SQL button and without any research on your part, up will pop
+the correct SQL code, ready for you to cut and paste. For this query, it looked
+like this:
+</font><p></p></div>
+
+<font color="#990000"><pre>SELECT people.FIRST, people.LAST, people.EMAIL
+FROM people.csv people
+WHERE (people.LAST='Eckel') AND 
+(people.EMAIL Is Not Null)
+ORDER BY people.FIRST </pre></font><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">With
+more complicated queries it&#8217;s easy to get things wrong, but with a query
+tool you can interactively test your queries and automatically generate the
+correct code. It&#8217;s hard to argue the case for doing this by hand.
+</font><p></p></div>
+<a name="Heading539"></a><h4 align="left">
+Step
+5: Modify and paste in your query
+</h4>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">You&#8217;ll
+notice that the code above looks different from what&#8217;s used in the
+program. That&#8217;s because the query tool uses full qualification for all of
+the names, even when there&#8217;s only one table involved. (When more than one
+table is involved, the qualification prevents collisions between columns from
+different tables that have the same names.) Since this query involves only one
+table, you can optionally remove the &#8220;people&#8221; qualifier from most
+of the names, like this:
+</font><p></p></div>
+
+<font color="#990000"><pre>SELECT FIRST, LAST, EMAIL
+FROM people.csv people
+WHERE (LAST='Eckel') AND 
+(EMAIL Is Not Null)
+ORDER BY FIRST </pre></font><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">In
+addition, you don&#8217;t want this program to be hard coded to look for only
+one name. Instead, it should hunt for the name given as the command-line
+argument. Making these changes and turning the SQL statement into a
+dynamically-created 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>String</b></font><font color="Black" face="Carmina Md BT" size="3">
+produces:
+</font><p></p></div>
+
+<font color="#990000"><pre>"SELECT FIRST, LAST, EMAIL " +
+"FROM people.csv people " +
+"WHERE " +
+"(LAST='" + args[0] + "') " +
+" AND (EMAIL Is Not Null) " +
+"ORDER BY FIRST"); </pre></font><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">SQL
+has another way to insert names into a query called <a name="Index2859"></a><a name="Index2860"></a><a name="Index2861"></a></font><font color="Black" face="Carmina Md BT" size="3"><i>stored
+procedures
+</i></font><font color="Black" face="Carmina Md BT" size="3">,
+which is used for speed. But for much of your database experimentation and for
+your first cut, building your own query strings in Java is fine.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">You
+can see from this example that by using the tools currently available &#8211;
+in particular the query-building tool &#8211; database programming with SQL and
+JDBC can be quite straightforward.
+</font><a name="_Toc408018783"></a><p></p></div>
+<a name="Heading540"></a><h3 align="left">
+A
+GUI version of the lookup program
+</h3>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">It&#8217;s
+more useful to leave the lookup program running all the time and simply switch
+to it and type in a name whenever you want to look someone up. The following
+program creates the lookup program as an application/applet, and it also adds
+name completion so the data will show up without forcing you to type the entire
+last name:
+</font><p></p></div>
+
+<font color="#990000"></font><pre><font color="#990000"><font color="#009900">//: VLookup.java</font>
+<font color="#009900">// GUI version of Lookup.java</font>
+<font color="#0000ff">import</font> java.awt.*;
+<font color="#0000ff">import</font> java.awt.event.*;
+<font color="#0000ff">import</font> java.applet.*;
+<font color="#0000ff">import</font> java.sql.*;
+
+<font color="#0000ff">public</font> <font color="#0000ff">class</font> VLookup <font color="#0000ff">extends</font> Applet {
+  String dbUrl = "jdbc:odbc:people";
+  String user = "";
+  String password = "";
+  Statement s;
+  TextField searchFor = <font color="#0000ff">new</font> TextField(20);
+  Label completion = 
+    <font color="#0000ff">new</font> Label("                        ");
+  TextArea results = <font color="#0000ff">new</font> TextArea(40, 20);
+  <font color="#0000ff">public</font> <font color="#0000ff">void</font> init() {
+    searchFor.addTextListener(<font color="#0000ff">new</font> SearchForL());
+    Panel p = <font color="#0000ff">new</font> Panel();
+    p.add(<font color="#0000ff">new</font> Label("Last name to search <font color="#0000ff">for</font>:"));
+    p.add(searchFor);
+    p.add(completion);
+    setLayout(<font color="#0000ff">new</font> BorderLayout());
+    add(p, BorderLayout.NORTH);
+    add(results, BorderLayout.CENTER);
+    <font color="#0000ff">try</font> {
+      <font color="#009900">// Load the driver (registers itself)</font>
+      Class.forName(
+        "sun.jdbc.odbc.JdbcOdbcDriver");
+      Connection c = DriverManager.getConnection(
+        dbUrl, user, password);
+      s = c.createStatement();
+    } <font color="#0000ff">catch</font>(Exception e) {
+      results.setText(e.getMessage());
+    }
+  }
+  <font color="#0000ff">class</font> SearchForL <font color="#0000ff">implements</font> TextListener {
+    <font color="#0000ff">public</font> <font color="#0000ff">void</font> textValueChanged(TextEvent te) {
+      ResultSet r;
+      <font color="#0000ff">if</font>(searchFor.getText().length() == 0) {
+        completion.setText("");
+        results.setText("");
+        <font color="#0000ff">return</font>;
+      }
+      <font color="#0000ff">try</font> {
+        <font color="#009900">// Name completion:</font>
+        r = s.executeQuery(
+          "SELECT LAST FROM people.csv people " +
+          "WHERE (LAST Like '" +
+          searchFor.getText()  + 
+          "%') ORDER BY LAST");
+        <font color="#0000ff">if</font>(r.next()) 
+          completion.setText(
+            r.getString("last"));
+        r = s.executeQuery(
+          "SELECT FIRST, LAST, EMAIL " +
+          "FROM people.csv people " +
+          "WHERE (LAST='" + 
+          completion.getText() +
+          "') AND (EMAIL Is Not Null) " +
+          "ORDER BY FIRST");
+      } <font color="#0000ff">catch</font>(Exception e) {
+        results.setText(
+          searchFor.getText() + "\n");
+        results.append(e.getMessage());
+        <font color="#0000ff">return</font>; 
+      }
+      results.setText("");
+      <font color="#0000ff">try</font> {
+        <font color="#0000ff">while</font>(r.next()) {
+          results.append(
+            r.getString("Last") + ", " 
+            + r.getString("fIRST") + 
+            ": " + r.getString("EMAIL") + "\n");
+        }
+      } <font color="#0000ff">catch</font>(Exception e) {
+        results.setText(e.getMessage());
+      }
+    }
+  }
+  <font color="#0000ff">public</font> <font color="#0000ff">static</font> <font color="#0000ff">void</font> main(String[] args) {
+    VLookup applet = <font color="#0000ff">new</font> VLookup();
+    Frame aFrame = <font color="#0000ff">new</font> Frame("Email lookup");
+    aFrame.addWindowListener(
+      <font color="#0000ff">new</font> WindowAdapter() {
+        <font color="#0000ff">public</font> <font color="#0000ff">void</font> windowClosing(WindowEvent e) {
+          System.exit(0);
+        }
+      });
+    aFrame.add(applet, BorderLayout.CENTER);
+    aFrame.setSize(500,200);
+    applet.init();
+    applet.start();
+    aFrame.setVisible(<font color="#0000ff">true</font>);
+  }
+} <font color="#009900">///:~ </font></font></pre><div align="left"><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">Much
+of the database logic is the same, but you can see that a 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>TextListener</b></font><font color="Black" face="Carmina Md BT" size="3">
+is added to listen to the 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>TextField</b></font><font color="Black" face="Carmina Md BT" size="3">,
+so that whenever you type a new character it first tries to do a name
+completion by looking up the last name in the database and using the first one
+that shows up. (It places it in the 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>completion</b></font><font color="Black" face="Carmina Md BT" size="3">
+</font><font color="Black" face="Carmina Md BT" size="3"><b>Label</b></font><font color="Black" face="Carmina Md BT" size="3">,
+and uses that as the lookup text.) This way, as soon as you&#8217;ve typed
+enough characters for the program to uniquely find the name you&#8217;re
+looking for, you can stop.
+</font><a name="_Toc408018784"></a><p></p></div>
+<a name="Heading541"></a><h3 align="left">
+Why
+the JDBC API 
+<p>seems
+so complex
+</p></h3>
+<div align="left"><font color="Black" face="Carmina Md BT" size="3">When
+you browse the online documentation for JDBC it can seem daunting. In
+particular, in the <a name="Index2862"></a><a name="Index2863"></a></font><font color="Black" face="Carmina Md BT" size="3"><b>DatabaseMetaData</b></font><font color="Black" face="Carmina Md BT" size="3">
+interface &#8211; which is just huge, contrary to most of the interfaces you
+see in Java &#8211; there are methods such as 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>dataDefinitionCausesTransactionCommit( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+</font><font color="Black" face="Carmina Md BT" size="3"><b>getMaxColumnNameLength( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+</font><font color="Black" face="Carmina Md BT" size="3"><b>getMaxStatementLength( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+</font><font color="Black" face="Carmina Md BT" size="3"><b>storesMixedCaseQuotedIdentifiers( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+</font><font color="Black" face="Carmina Md BT" size="3"><b>supportsANSI92IntermediateSQL( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+</font><font color="Black" face="Carmina Md BT" size="3"><b>supportsLimitedOuterJoins( )</b></font><font color="Black" face="Carmina Md BT" size="3">,
+and so on. What&#8217;s this all about?
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">As
+mentioned earlier, databases have seemed from their inception to be in a
+constant state of turmoil, primarily because the demand for database
+applications, and thus database tools, is so great. Only recently has there
+been any convergence on the common language of SQL (and there are plenty of
+other database languages in common use). But even with an SQL
+&#8220;standard&#8221; there are so many variations on that theme that JDBC
+must provide the large 
+</font><font color="Black" face="Carmina Md BT" size="3"><b>DatabaseMetaData</b></font><font color="Black" face="Carmina Md BT" size="3">
+interface so that your code can discover the capabilities of the particular
+&#8220;standard&#8221; SQL database that it&#8217;s currently connected to. In
+short, you can write simple, transportable SQL, but if you want to optimize
+speed your coding will multiply tremendously as you investigate the
+capabilities of a particular vendor&#8217;s database.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">This,
+of course, is not Java&#8217;s fault. The discrepancies between database
+products are just something that JDBC tries to help compensate for. But bear in
+mind that your life will be easier if you can either write generic queries and
+not worry too much about performance, or, if you must tune for performance,
+know the platform you&#8217;re writing for so you don&#8217;t need to write all
+that investigation code.
+</font><p></p></div><div align="left"><font color="Black" face="Carmina Md BT" size="3">There
+is more JDBC information available in the electronic documents that come as
+part of the Java 1.1<a name="Index2864"></a>
+distribution from Sun. In addition, you can find more in the book 
+</font><font color="Black" face="Carmina Md BT" size="3"><i>JDBC
+Database Access with Java 
+</i></font><font color="Black" face="Carmina Md BT" size="3">(Hamilton,
+Cattel, and Fisher, Addison-Wesley 1997). Other JDBC books are appearing
+regularly.
+</font><a name="_Toc408018785"></a><p></p></div>
+
+<div align="right">
+<a href="tij_c.shtml">Contents</a> | <a href="tij0168.shtml">Prev</a> | <a href="tij0170.shtml">Next</a>
+</div>
+<!--
+<P>
+<strong><a href="/cgi-bin/addpage/addpage.cgi?cfg=addjavalcomment&action=Comment">
+Add Comment</a></strong>
+<P>
+-->
+</td>
+
+
+<!-- end main content column -->
+
+<!-- begin spots column -->
+
+<td align="right" valign="top">
+
+<p>
+
+
+ <!-- Right side tower ad -->
+<iframe src="http://view.atdmt.com/MON/iview/rthwbmec0110000190mon/direct/01/&amp;396089418?click=" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" frameborder="0" height="600" scrolling="no" width="120">
+&lt;script&gt;
+document.write('&lt;a
+href="http://clk.atdmt.com/MON/go/rthwbmec0110000190mon/direct/01/396089418"
+target="_blank"&gt;
+&lt;img
+src="http://view.atdmt.com/MON/view/rthwbmec0110000190mon/direct/01/396089418"/&gt;&lt;/a&gt;');
+&lt;/script&gt;&lt;noscript&gt;&lt;a
+href="http://clk.atdmt.com/MON/go/rthwbmec0110000190mon/direct/01/396089418"
+target="_blank"&gt;
+&lt;img border="0"
+src="http://view.atdmt.com/MON/view/rthwbmec0110000190mon/direct/01/396089418"
+/&gt;&lt;/a&gt;&lt;/noscript&gt;</iframe>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/396089418/125x800/OasDefault/Monster_EcommPhase_1e/EWROS120x600.html/33656363636439343432306361343830?_RM_EMPTY_" height="1" width="1">
+
+
+</p><p>
+<!-- Commerce bar -->
+<table border="0" cellpadding="3" width="140">
+
+<tbody><tr bgcolor="black"><td>
+<font color="white" face="Arial" size="1">
+<b><center>internet.commerce</center></b></font>
+</td></tr>
+<tr bgcolor="lightgrey"><td>
+<font face="Arial" size="1">
+<a href="http://www.jupitermedia.com/partners/">Partners &amp; Affiliates</a><br>
+<a href="http://www.tophosts.com">Search Web Hosting</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/1801512291/cp1/OasDefault/Top_Hosts_45e/search.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.codeguru.com/RealMedia/ads/click_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/2127561789/cp2/OasDefault/HostSave_CP_13d/CheapWebHosting.html/33656363636439343432306361343830">Cheap Web Hosting</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/2127561789/cp2/OasDefault/HostSave_CP_13d/CheapWebHosting.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://shopping.yahoo.com/b:Cell%20Phones:89015929">Cell Phone Plans</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/301745382/cp3/OasDefault/Yahoo_CP_11f/CellularPhones.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.boatangel.org">Boat Donations</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/627331490/cp4/OasDefault/Boat_Angel_6a/BoatDonations.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.dotster.com/webhosting">Web Hosting</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/2023408679/cp5/OasDefault/Dotster_25e/webhosting.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.databazaar.com">Ink Cartridges</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/1272483603/cp6/OasDefault/Databazaar_7d/InkCartridges.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.domain.com">Domain registration</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/536476892/cp7/OasDefault/Domain_Bank_46d/Domainregistration.html/33656363636439343432306361343830?_RM_EMPTY_" height="1" width="1"><br>
+<a href="http://www.marketingfind.com">Internet Marketing</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/859123888/cp8/OasDefault/MarketingFind_12a/InternetMarketing.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.promopeddler.com">Promotional Products</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/116601783/cp9/OasDefault/New_Idea_Promos_13b/PromotionalProducts.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.epromos.com">Promotional Gifts</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/1496720257/cp10/OasDefault/EPROMOS_12a/PromotionalGifts.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.memoryxflash.com">Memory Flash Cards</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/1830063211/cp11/OasDefault/Memoryx_net_7b/MemoryFlashCards.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.kaylens.com">Online College Degree</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/6082520/cp12/OasDefault/Grand_Canyon_University_8f/OnlineCollegeDegree.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+<a href="http://www.webuildpages.com/marketing-consultant">Marketing Consultant</a>
+<img src="http://www.codeguru.com/RealMedia/ads/adstream_lx.cgi/ew/ewsoftware/www.codeguru.com/java/tij/tij0169.shtml/337217410/cp13/OasDefault/WeBuildPages_8d/MarketingConsultant.html/33656363636439343432306361343830?_RM_EMPTY_" border="0" height="1" width="1"><br>
+
+</font>
+</td></tr>
+</tbody></table>
+<!-- End of commerce bar -->
+<br>
+
+
+</p></td>
+
+<!-- end spots column -->
+
+</tr>
+
+<!-- end main content column -->
+
+
+<!-- begin lower ad and footer section -->
+
+
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>
+<p>
+
+<!-- end see also/paid links table -->
+
+</p></td></tr>
+<tr><td>
+<table valign="bottom" cellpadding="0" cellspacing="0" width="468"><tbody><tr><td nowrap="nowrap"><!-- begin footer information -->
+
+<center>
+<br>
+<br clear="all"><center><table border="0" cellpadding="5" cellspacing="0">
+                <tbody><tr> 
+                  <form method="post" action="http://search.internet.com/www.jupiterweb.com" target="_top" ,=""></form>
+                    <td align="center">
+                    <font face="verdana, arial, helvetica" size="-2">
+                    <a href="http://www.jupitermedia.com/corporate/privacy/aup.html" id="aup">Acceptable Use Policy</a><br><br>
+                    <b>JupiterWeb networks:</b></font> 
+                      <p align="center"> 
+<table border="0"><tbody><tr><td class="foot_alt" align="center">
+<a href="http://www.internet.com" class="foot" target="_top"><img src="/icom_includes/footers/icom_foot.gif" alt="internet.com" align="middle" border="0" height="15" hspace="0" width="97"></a><img src="/icom_includes/footers/ruledivide_foot.gif" alt="" align="middle" border="0" height="25" hspace="10" width="1"><a href="http://www.earthweb.com" target="_top"><img src="/icom_includes/footers/earthweb_foot2.gif" alt="earthweb.com" align="middle" border="0" height="12" hspace="5" width="93"></a><img src="/icom_includes/footers/ruledivide_foot.gif" alt="" align="middle" border="0" height="25" hspace="10" width="1"><a href="http://www.devx.com" target="_top"><img src="/icom_includes/footers/devx_foot2.gif" alt="Devx.com" align="middle" border="0" height="30" hspace="0" width="35"></a><img src="/icom_includes/footers/ruledivide_foot.gif" alt="" align="middle" border="0" height="25" hspace="10" width="1"><a href="http://www.clickz.com" target="_top"><img src="/icom_includes/footers/clickz_foot2.gif" alt="ClickZ" align="middle" border="0" height="24" hspace="0" width="55"></a><img src="/icom_includes/footers/ruledivide_foot.gif" alt="" align="middle" border="0" height="25" hspace="10" width="1"><a href="http://www.graphics.com" target="_top"><img src="/icom_includes/footers/grcom_foot.gif" alt="Graphics.com" align="middle" border="0" height="18" hspace="0" width="97"></a></td></tr></tbody></table>
+                      </p><p> 
+                      <font face="verdana, arial, helvetica" size="-2"><b>Search JupiterWeb:</b> 
+                      <input name="IC_Summary" value="1" type="hidden">
+                      <input name="IC_StartNumber" value="0" type="hidden">
+                      <input name="IC_BatchSize" value="10" type="hidden">
+                      <input name="IC_RelevanceThreshold" value="50" type="hidden">
+                      <input name="IC_QueryDatabase" value="all" type="hidden">
+                      <input name="IC_QueryText" size="45" type="text">
+                      <input value="Find" name="SUBMIT" src="/icom_includes/footers/but_find.gif" align="center" border="0" height="20" type="image" width="41">
+                      </font>
+                      </p><p>
+                      <font face="verdana, arial, helvetica" size="-2">
+                     <a href="http://www.jupitermedia.com/" class="foot"> Jupitermedia Corporation</a> has four divisions:
+                      <br><a href="http://www.jupiterweb.com/" class="foot" target="_top">JupiterWeb</a>, <a href="http://www.jupiterresearch.com/" class="foot" target="_top">JupiterResearch</a>, <a href="http://www.jupiterevents.com/" class="foot" target="_top">JupiterEvents</a> and <a href="http://www.jupiterimages.com/" class="foot" target="_top">JupiterImages</a>
+                      </font></p><p>
+<font face="verdana, arial, helvetica" size="-2">                      </font></p><div class="foot"><font face="verdana, arial, helvetica" size="-2">Copyright <!--YEAR-->2005 Jupitermedia Corporation All Rights Reserved.<br>
+                        <a href="http://www.jupitermedia.com/corporate/legal.html" class="foot" target="_top">Legal 
+                        Notices</a>, <a href="http://www.jupitermedia.com/corporate/reprints.html#Licensing1" class="foot" target="_top">Licensing</a>, 
+                        <a href="http://www.jupitermedia.com/corporate/reprints.html#Reprints1" class="foot" target="_top">Reprints</a>, 
+                        &amp; <a href="http://www.jupitermedia.com/corporate/reprints.html#Permissions" class="foot" target="_top">Permissions</a>, 
+                        <a href="http://www.jupitermedia.com/corporate/privacy/privacypolicy.html" class="foot" target="_top">Privacy 
+                        Policy</a>. </font>
+                      <p> <font face="verdana, arial, helvetica" size="-2"><a href="http://www.jupitermedia.com/corporate/" class="foot" target="_top">Jupitermedia Corporate 
+                        Info</a> | <a href="http://e-newsletters.internet.com/" class="foot">Newsletters</a> 
+                        | <a href="http://jobs.internet.com/" class="foot" target="_top">Tech 
+                        Jobs</a> | <a href="http://e-newsletters.internet.com/cgi-bin/al-manage/subscribe.cgi?brand=icom" class="foot" target="_top">E-mail 
+                        Offers</a></font></p></div>
+
+                    </td>
+                  
+                </tr>
+              </tbody></table></center>
+ 
+
+
+
+</center></td></tr></tbody></table><!-- end footer information --></td></tr></tbody></table><!-- end lower ad and footer section --></td><!-- end main content column --></tr></tbody></table>
+<p></p></body></html>

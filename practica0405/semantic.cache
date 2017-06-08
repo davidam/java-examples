@@ -1,0 +1,21 @@
+;; Object practica0405/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "practica0405/"
+  :tables (list 
+   (semanticdb-table "ConexionPrueba.java"
+    :major-mode 'java-mode
+    :tags '(("practica0405" package nil nil [180 201]) ("java.sql.*" include nil nil [202 220]) ("ConexionPrueba" type (:typemodifiers ("public") :members (("main" function (:typemodifiers ("public" "static") :arguments (("arg[]" variable (:type "String") (reparse-symbol formal_parameters) [464 476])) :type "void") (reparse-symbol class_member_declaration) [440 1520])) :type "class") nil [408 1522]))
+    :file "ConexionPrueba.java"
+    :pointmax 1523
+    )
+   (semanticdb-table "Proyectos.java"
+    :major-mode 'jde-mode
+    :tags 'nil
+    :file "Proyectos.java"
+    :pointmax 117
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

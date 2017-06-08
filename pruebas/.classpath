@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="jdbc"/>
+    <classpathentry excluding="jdbc/" kind="src" path=""/>
+    <classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="lib" path="/usr/share/java/mysql.jar" sourcepath="/usr/share/java/mysql.jar"/>
+    <classpathentry kind="output" path="jdbc"/>
+</classpath>

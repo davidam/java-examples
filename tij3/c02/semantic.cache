@@ -1,0 +1,15 @@
+;; Object c02/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c02/"
+  :tables (list 
+   (semanticdb-table "HelloDate.java"
+    :major-mode 'java-mode
+    :tags '(("java.util.*" include nil nil [143 162]) ("HelloDate" type (:typemodifiers ("public") :members (("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [545 558])) :type "void") (reparse-symbol class_member_declaration) [521 642])) :type "class") nil [323 644]))
+    :file "HelloDate.java"
+    :pointmax 651
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

@@ -1,0 +1,27 @@
+;; Object ejemplos/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ejemplos/"
+  :tables (list 
+    (semanticdb-table "hola.java"
+    :major-mode 'java-mode
+    :tags '(("Hola" type (:members (("main" function (:typemodifiers ("public" "static") :arguments (("argumentos[]" variable (:type "String") (reparse-symbol formal_parameters) [43 62])) :type "void") (reparse-symbol class_member_declaration) [18 106])) :type "class") nil [1 108]) ("Bucle" type (:members (("main" function (:typemodifiers ("public" "static") :arguments (("argumentos[]" variable (:type "String") (reparse-symbol formal_parameters) [153 172])) :type "void") (reparse-symbol class_member_declaration) [128 283])) :type "class") nil [110 285]) ("Condicional" type (:members (("main" function (:typemodifiers ("public" "static") :arguments (("argumentos[]" variable (:type "String") (reparse-symbol formal_parameters) [336 355])) :type "void") (reparse-symbol class_member_declaration) [311 497])) :type "class") nil [287 499]) ("MuchoCondicional" type (:members (("main" function (:typemodifiers ("public" "static") :arguments (("argumentos[]" variable (:type "String") (reparse-symbol formal_parameters) [555 574])) :type "void") (reparse-symbol class_member_declaration) [530 860])) :type "class") nil [501 862]))
+    :file "hola.java"
+    :pointmax 866
+    )
+   (semanticdb-table "Applet1b.java"
+    :major-mode 'java-mode
+    :tags '(("javax.swing.*" include nil nil [124 145]) ("java.awt.*" include nil nil [146 164]) ("Applet1b" type (:typemodifiers ("public") :superclasses "JApplet" :members (("init" function (:typemodifiers ("public") :type "void") (reparse-symbol class_member_declaration) [208 281])) :type "class") nil [166 283]))
+    :file "Applet1b.java"
+    :pointmax 290
+    )
+   (semanticdb-table "Applet1.java"
+    :major-mode 'java-mode
+    :tags '(("javax.swing.*" include nil nil [45 66]) ("java.awt.*" include nil nil [67 85]) ("Applet1" type (:typemodifiers ("public") :superclasses "JApplet" :members (("init" function (:typemodifiers ("public") :type "void") (reparse-symbol class_member_declaration) [128 201])) :type "class") nil [87 203]))
+    :file "Applet1.java"
+    :pointmax 212
+    )
+    )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

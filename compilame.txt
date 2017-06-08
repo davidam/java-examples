@@ -1,0 +1,9 @@
+Para compilar y ejecutar un fichero en java hay que hacer lo siguiente:
+
+javac NombreFichero.java
+java NombreFichero
+
+Si la clase no está en el classpath puede ser necesario hacer
+
+java -cp NombreFichero
+

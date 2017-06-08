@@ -1,0 +1,9 @@
+public class Ej17 {
+    public Caracteres() {
+    }
+    public static void main (String[] args) {
+	char x='a';
+	for(int i=0;i<3;i++)
+	    System.out.print(++x);
+    }
+}

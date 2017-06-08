@@ -1,0 +1,28 @@
+;; Object c11/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "c11/"
+  :tables (list 
+   (semanticdb-table "MouseList.java"
+    :major-mode 'jde-mode
+    :tags '(("java.util.*" include nil nil [169 188]) ("MouseList" type (:typemodifiers ("public") :members (("list" variable (:typemodifiers ("private") :type "List") (reparse-symbol class_member_declaration) [217 253]) ("add" function (:typemodifiers ("public") :arguments (("m" variable (:type "Mouse") (reparse-symbol formal_parameters) [272 279])) :type "void") (reparse-symbol class_member_declaration) [256 297]) ("get" function (:typemodifiers ("public") :arguments (("index" variable (:type "int") (reparse-symbol formal_parameters) [317 326])) :type "Mouse") (reparse-symbol class_member_declaration) [300 368]) ("size" function (:typemodifiers ("public") :type "int") (reparse-symbol class_member_declaration) [371 412])) :type "class") nil [190 414]))
+    :file "MouseList.java"
+    :pointmax 421
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "CatsAndDogs2.java"
+    :major-mode 'jde-mode
+    :tags '(("c11" package nil nil [181 193]) ("com.bruceeckel.simpletest.*" include nil nil [194 229]) ("java.util.*" include nil nil [230 249]) ("CatsAndDogs2" type (:typemodifiers ("public") :members (("monitor" variable (:typemodifiers ("private" "static") :type "Test") (reparse-symbol class_member_declaration) [281 322]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [349 362])) :type "void") (reparse-symbol class_member_declaration) [325 546])) :type "class") nil [251 548]))
+    :file "CatsAndDogs2.java"
+    :pointmax 555
+    )
+   (semanticdb-table "MouseListTest.java"
+    :major-mode 'jde-mode
+    :tags '(("com.bruceeckel.simpletest.*" include nil nil [147 182]) ("MouseListTest" type (:typemodifiers ("public") :members (("monitor" variable (:typemodifiers ("private" "static") :type "Test") (reparse-symbol class_member_declaration) [215 256]) ("main" function (:typemodifiers ("public" "static") :arguments (("args" variable (:type "String[]") (reparse-symbol formal_parameters) [283 296])) :type "void") (reparse-symbol class_member_declaration) [259 577])) :type "class") nil [184 579]))
+    :file "MouseListTest.java"
+    :pointmax 586
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

@@ -1,0 +1,77 @@
+  ---- VISIÓN GENERAL Y ELEMENTOS BÁSICOS DEL LENGUAJE ----
+
+= ÍNDICE =
+
+ * Tipos de datos simples 
+ * Estructuras de control
+ * 
+
+
+
+= Tipos de datos simples =
+
+Existen los siguientes tipos de datos simples:
+
+   byte short int long float double char boolean
+
+Ámbito de una vble puede ser:
+
+   * variable local -> se define dentro de un método ó bloque parentizado y solo es visible en ese ámbito.
+   * atributo -> las características de un objeto
+   * parámetro de un método -> es posible pasar por referencia ó por valor, si es por referencia es posible modificar el valor de la vble fuera del método.
+   * parámetro de un tratador de excepciones -> 
+
+Operadores 
+   * aritméticos: +, -, *, /, %, ++, --
+   * relacionales: >, <, >=, <=, ==, !=
+   * lógicos: &&, ||, !
+   * de bits: >>, <<, >>>, &, |, ^, ~
+
+Visibilidad de atributos:
+
+	 		  public  protected  private  default (package)
+
+- Desde la propia clase     Sí       Sí        Sí       Sí
+- Desde otra clase en
+ el package                 Sí       Sí        No       Sí
+- Desde otra clase fuera
+del package                 Sí       No        No       No
+- Desde una subclase en
+el propio package           Sí       Sí        No       Sí
+- Desde una subclase 
+fuera del propio package    Sí       Sí        No       No
+
+   * public: puede ser accedido desde cualquier otra clase
+   * private: solo puede ser accedido mediante funciones miembros de esa clase.
+   * protected: solo puede ser accedido mediante funciones de esa clase, de clases que deriven de ella y de clases del paquete. 
+   * package: solo puede ser accedido mediante funciones de clases del paquete.
+
+Otros modificadores de atributos:
+
+   * static: significa que es una variable propia de la clase y no de los objetos.
+   * final: el atributo es una constante.
+   
+
+= Estructuras de control =
+
+if (cont == 0)
+   System.out.println("he llegado a cero");
+else
+   System.out.println("aun estoy distinto de cero");
+
+si se requieren más condiciones deberemos anidarlos ó usar switch
+
+dia=Integer.valueOf(argumentos[0]).intValue();
+switch (dia) {
+       case 1: System.out.println("Lunes");
+	       break;
+       case 2: System.out.println("Martes");
+	       break;
+       case 3: System.out.println("Miércoles");
+	       break;
+       case 4: System.out.println("Jueves");
+	       break;
+       default:System.out.println("¡Finde!");
+}
+
+=
